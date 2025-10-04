@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/afftobuss/Documents/game2kurs/main.cpp" "CMakeFiles/Game2kurs.dir/main.cpp.o" "gcc" "CMakeFiles/Game2kurs.dir/main.cpp.o.d"
+  "/Users/afftobuss/Documents/game2kurs/src/Game/Game.cpp" "CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o" "gcc" "CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o.d"
+  "/Users/afftobuss/Documents/game2kurs/src/UI/MainMenu.cpp" "CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o" "gcc" "CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o.d"
+  "/Users/afftobuss/Documents/game2kurs/src/main.cpp" "CMakeFiles/Game2kurs.dir/src/main.cpp.o" "gcc" "CMakeFiles/Game2kurs.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

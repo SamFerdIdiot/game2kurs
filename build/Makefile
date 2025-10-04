@@ -129,29 +129,77 @@ Game2kurs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/build
 .PHONY : Game2kurs/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/Game/Game.o: src/Game/Game.cpp.o
+.PHONY : src/Game/Game.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Game/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o
+.PHONY : src/Game/Game.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Game/Game.i: src/Game/Game.cpp.i
+.PHONY : src/Game/Game.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Game/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.i
+.PHONY : src/Game/Game.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Game/Game.s: src/Game/Game.cpp.s
+.PHONY : src/Game/Game.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Game/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.s
+.PHONY : src/Game/Game.cpp.s
+
+src/UI/MainMenu.o: src/UI/MainMenu.cpp.o
+.PHONY : src/UI/MainMenu.o
+
+# target to build an object file
+src/UI/MainMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o
+.PHONY : src/UI/MainMenu.cpp.o
+
+src/UI/MainMenu.i: src/UI/MainMenu.cpp.i
+.PHONY : src/UI/MainMenu.i
+
+# target to preprocess a source file
+src/UI/MainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.i
+.PHONY : src/UI/MainMenu.cpp.i
+
+src/UI/MainMenu.s: src/UI/MainMenu.cpp.s
+.PHONY : src/UI/MainMenu.s
+
+# target to generate assembly for a file
+src/UI/MainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.s
+.PHONY : src/UI/MainMenu.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game2kurs"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Game/Game.o"
+	@echo "... src/Game/Game.i"
+	@echo "... src/Game/Game.s"
+	@echo "... src/UI/MainMenu.o"
+	@echo "... src/UI/MainMenu.i"
+	@echo "... src/UI/MainMenu.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

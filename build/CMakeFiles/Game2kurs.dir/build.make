@@ -72,34 +72,66 @@ include CMakeFiles/Game2kurs.dir/flags.make
 CMakeFiles/Game2kurs.dir/codegen:
 .PHONY : CMakeFiles/Game2kurs.dir/codegen
 
-CMakeFiles/Game2kurs.dir/main.cpp.o: CMakeFiles/Game2kurs.dir/flags.make
-CMakeFiles/Game2kurs.dir/main.cpp.o: /Users/afftobuss/Documents/game2kurs/main.cpp
-CMakeFiles/Game2kurs.dir/main.cpp.o: CMakeFiles/Game2kurs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game2kurs.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game2kurs.dir/main.cpp.o -MF CMakeFiles/Game2kurs.dir/main.cpp.o.d -o CMakeFiles/Game2kurs.dir/main.cpp.o -c /Users/afftobuss/Documents/game2kurs/main.cpp
+CMakeFiles/Game2kurs.dir/src/main.cpp.o: CMakeFiles/Game2kurs.dir/flags.make
+CMakeFiles/Game2kurs.dir/src/main.cpp.o: /Users/afftobuss/Documents/game2kurs/src/main.cpp
+CMakeFiles/Game2kurs.dir/src/main.cpp.o: CMakeFiles/Game2kurs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Game2kurs.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game2kurs.dir/src/main.cpp.o -MF CMakeFiles/Game2kurs.dir/src/main.cpp.o.d -o CMakeFiles/Game2kurs.dir/src/main.cpp.o -c /Users/afftobuss/Documents/game2kurs/src/main.cpp
 
-CMakeFiles/Game2kurs.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game2kurs.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/afftobuss/Documents/game2kurs/main.cpp > CMakeFiles/Game2kurs.dir/main.cpp.i
+CMakeFiles/Game2kurs.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game2kurs.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/afftobuss/Documents/game2kurs/src/main.cpp > CMakeFiles/Game2kurs.dir/src/main.cpp.i
 
-CMakeFiles/Game2kurs.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game2kurs.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/afftobuss/Documents/game2kurs/main.cpp -o CMakeFiles/Game2kurs.dir/main.cpp.s
+CMakeFiles/Game2kurs.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game2kurs.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/afftobuss/Documents/game2kurs/src/main.cpp -o CMakeFiles/Game2kurs.dir/src/main.cpp.s
+
+CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o: CMakeFiles/Game2kurs.dir/flags.make
+CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o: /Users/afftobuss/Documents/game2kurs/src/Game/Game.cpp
+CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o: CMakeFiles/Game2kurs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o -MF CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o.d -o CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o -c /Users/afftobuss/Documents/game2kurs/src/Game/Game.cpp
+
+CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/afftobuss/Documents/game2kurs/src/Game/Game.cpp > CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.i
+
+CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/afftobuss/Documents/game2kurs/src/Game/Game.cpp -o CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.s
+
+CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o: CMakeFiles/Game2kurs.dir/flags.make
+CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o: /Users/afftobuss/Documents/game2kurs/src/UI/MainMenu.cpp
+CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o: CMakeFiles/Game2kurs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o -MF CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o.d -o CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o -c /Users/afftobuss/Documents/game2kurs/src/UI/MainMenu.cpp
+
+CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/afftobuss/Documents/game2kurs/src/UI/MainMenu.cpp > CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.i
+
+CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/afftobuss/Documents/game2kurs/src/UI/MainMenu.cpp -o CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.s
 
 # Object files for target Game2kurs
 Game2kurs_OBJECTS = \
-"CMakeFiles/Game2kurs.dir/main.cpp.o"
+"CMakeFiles/Game2kurs.dir/src/main.cpp.o" \
+"CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o" \
+"CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o"
 
 # External object files for target Game2kurs
 Game2kurs_EXTERNAL_OBJECTS =
 
-Game2kurs: CMakeFiles/Game2kurs.dir/main.cpp.o
+Game2kurs: CMakeFiles/Game2kurs.dir/src/main.cpp.o
+Game2kurs: CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o
+Game2kurs: CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o
 Game2kurs: CMakeFiles/Game2kurs.dir/build.make
 Game2kurs: /opt/homebrew/lib/libsfml-graphics.3.0.2.dylib
 Game2kurs: /opt/homebrew/lib/libsfml-window.3.0.2.dylib
 Game2kurs: /opt/homebrew/lib/libsfml-system.3.0.2.dylib
 Game2kurs: CMakeFiles/Game2kurs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Game2kurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Game2kurs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game2kurs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
