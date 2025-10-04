@@ -97,8 +97,6 @@ Game2kurs: CMakeFiles/Game2kurs.dir/main.cpp.o
 Game2kurs: CMakeFiles/Game2kurs.dir/build.make
 Game2kurs: /opt/homebrew/lib/libsfml-graphics.3.0.2.dylib
 Game2kurs: /opt/homebrew/lib/libsfml-window.3.0.2.dylib
-Game2kurs: /opt/homebrew/lib/libsfml-audio.3.0.2.dylib
-Game2kurs: /opt/homebrew/lib/libsfml-network.3.0.2.dylib
 Game2kurs: /opt/homebrew/lib/libsfml-system.3.0.2.dylib
 Game2kurs: CMakeFiles/Game2kurs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Game2kurs"
