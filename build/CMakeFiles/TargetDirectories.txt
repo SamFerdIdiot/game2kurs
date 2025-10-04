@@ -1,0 +1,3 @@
+/Users/afftobuss/Documents/game2kurs/build/CMakeFiles/Game2kurs.dir
+/Users/afftobuss/Documents/game2kurs/build/CMakeFiles/edit_cache.dir
+/Users/afftobuss/Documents/game2kurs/build/CMakeFiles/rebuild_cache.dir
