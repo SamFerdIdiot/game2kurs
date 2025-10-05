@@ -1,26 +1,26 @@
 #include "UI/MainMenu.h"
 #include <iostream>
 
-MainMenu::MainMenu(sf::Font& font) 
+constexpr unsigned int MainMenu::WINDOW_WIDTH;
+constexpr unsigned int MainMenu::WINDOW_HEIGHT;
+
+MainMenu::MainMenu(sf::Font& font)
     : font(font)
-    , selector(font, ">>", 10)
-    , title(font, "ROAD TRIP", 16)
-    , subtitle(font, "ROAD MOVIE RPG", 10)
-    , line(sf::Vector2f(400, 2))
+    , selector(font, ">>", 14)
+    , title(font, "ROAD TRIP ROSTOV => MOSCOW", 18)
+    , subtitle(font, "ROAD MOVIE RPG", 14)
+    , line(sf::Vector2f(800, 3))
 {
-    // Настройка заголовка
+    // Все позиции смещены влево
     title.setFillColor(sf::Color::Yellow);
-    title.setPosition({160, 60});
+    title.setPosition({100, 150});  // Максимально влево
     
-    // Настройка подзаголовка
     subtitle.setFillColor(sf::Color::Cyan);
-    subtitle.setPosition({240, 90});
+    subtitle.setPosition({100, 200});
     
-    // Настройка разделительной линии
     line.setFillColor(sf::Color(100, 100, 150));
-    line.setPosition({120, 130});
+    line.setPosition({100, 230});
     
-    // Настройка индикатора выбора
     selector.setFillColor(sf::Color::Yellow);
     
     setupMenuItems();
@@ -30,30 +30,31 @@ MainMenu::MainMenu(sf::Font& font)
 void MainMenu::setupMenuItems() {
     menuItems.clear();
     
-    sf::Text newGame(font, "START NEW TRIP", 10);
+    // Все пункты меню смещены влево
+    sf::Text newGame(font, "START NEW TRIP", 22);
     newGame.setFillColor(sf::Color::Green);
-    newGame.setPosition({240, 150});
+    newGame.setPosition({150, 280});
     menuItems.push_back(newGame);
     
-    sf::Text continueGame(font, "CONTINUE TRIP", 10);
+    sf::Text continueGame(font, "CONTINUE TRIP", 22);
     continueGame.setFillColor(sf::Color::White);
-    continueGame.setPosition({240, 180});
+    continueGame.setPosition({150, 310});
     menuItems.push_back(continueGame);
     
-    sf::Text music(font, "SOUNDTRACK", 10);
+    sf::Text music(font, "SOUNDTRACK", 22);
     music.setFillColor(sf::Color::White);
-    music.setPosition({240, 210});
+    music.setPosition({150, 340});
     menuItems.push_back(music);
     
-    sf::Text exit(font, "EXIT GARAGE", 10);
+    sf::Text exit(font, "EXIT GARAGE", 22);
     exit.setFillColor(sf::Color::White);
-    exit.setPosition({240, 240});
+    exit.setPosition({150, 380});
     menuItems.push_back(exit);
 }
 
 void MainMenu::updateSelector() {
     selector.setPosition({
-        menuItems[selectedIndex].getPosition().x - 30,
+        menuItems[selectedIndex].getPosition().x - 60,
         menuItems[selectedIndex].getPosition().y
     });
 }
@@ -75,7 +76,6 @@ void MainMenu::handleInput(sf::Event& event) {
 }
 
 void MainMenu::update() {
-    // Обновление цветов пунктов меню
     for (int i = 0; i < menuItems.size(); ++i) {
         if (i == selectedIndex) {
             menuItems[i].setFillColor(sf::Color::Yellow);

@@ -20,6 +20,9 @@ private:
     void updateSelector();
     void setupMenuItems();
     
+    static constexpr unsigned int WINDOW_WIDTH = 2560;
+    static constexpr unsigned int WINDOW_HEIGHT = 1600;
+    
     sf::Font& font;
     std::vector<sf::Text> menuItems;
     sf::Text selector;
