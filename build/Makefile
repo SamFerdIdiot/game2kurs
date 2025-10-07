@@ -153,6 +153,30 @@ src/Game/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.s
 .PHONY : src/Game/Game.cpp.s
 
+src/States/VehicleSelection.o: src/States/VehicleSelection.cpp.o
+.PHONY : src/States/VehicleSelection.o
+
+# target to build an object file
+src/States/VehicleSelection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/States/VehicleSelection.cpp.o
+.PHONY : src/States/VehicleSelection.cpp.o
+
+src/States/VehicleSelection.i: src/States/VehicleSelection.cpp.i
+.PHONY : src/States/VehicleSelection.i
+
+# target to preprocess a source file
+src/States/VehicleSelection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/States/VehicleSelection.cpp.i
+.PHONY : src/States/VehicleSelection.cpp.i
+
+src/States/VehicleSelection.s: src/States/VehicleSelection.cpp.s
+.PHONY : src/States/VehicleSelection.s
+
+# target to generate assembly for a file
+src/States/VehicleSelection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/src/States/VehicleSelection.cpp.s
+.PHONY : src/States/VehicleSelection.cpp.s
+
 src/UI/MainMenu.o: src/UI/MainMenu.cpp.o
 .PHONY : src/UI/MainMenu.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/Game/Game.o"
 	@echo "... src/Game/Game.i"
 	@echo "... src/Game/Game.s"
+	@echo "... src/States/VehicleSelection.o"
+	@echo "... src/States/VehicleSelection.i"
+	@echo "... src/States/VehicleSelection.s"
 	@echo "... src/UI/MainMenu.o"
 	@echo "... src/UI/MainMenu.i"
 	@echo "... src/UI/MainMenu.s"

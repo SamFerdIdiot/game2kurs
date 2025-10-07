@@ -85,12 +85,12 @@ clean: CMakeFiles/Game2kurs.dir/clean
 CMakeFiles/Game2kurs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=1,2,3,4 "Built target Game2kurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Game2kurs"
 .PHONY : CMakeFiles/Game2kurs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Game2kurs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/afftobuss/Documents/game2kurs/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/afftobuss/Documents/game2kurs/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Game2kurs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/afftobuss/Documents/game2kurs/build/CMakeFiles 0
 .PHONY : CMakeFiles/Game2kurs.dir/rule
@@ -102,7 +102,7 @@ Game2kurs: CMakeFiles/Game2kurs.dir/rule
 # codegen rule for target.
 CMakeFiles/Game2kurs.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game2kurs.dir/build.make CMakeFiles/Game2kurs.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target Game2kurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/afftobuss/Documents/game2kurs/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target Game2kurs"
 .PHONY : CMakeFiles/Game2kurs.dir/codegen
 
 # clean rule for target.

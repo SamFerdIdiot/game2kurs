@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o"
   "CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o.d"
+  "CMakeFiles/Game2kurs.dir/src/States/VehicleSelection.cpp.o"
+  "CMakeFiles/Game2kurs.dir/src/States/VehicleSelection.cpp.o.d"
   "CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o"
   "CMakeFiles/Game2kurs.dir/src/UI/MainMenu.cpp.o.d"
   "CMakeFiles/Game2kurs.dir/src/main.cpp.o"
