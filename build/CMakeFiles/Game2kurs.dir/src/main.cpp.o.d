@@ -897,4 +897,5 @@ CMakeFiles/Game2kurs.dir/src/main.cpp.o: \
   /usr/local/include/SFML/System/InputStream.hpp \
   /usr/local/include/SFML/System/MemoryInputStream.hpp \
   /usr/local/include/SFML/System/Sleep.hpp \
-  /Users/afftobuss/Documents/game2kurs/include/UI/MainMenu.h
+  /Users/afftobuss/Documents/game2kurs/include/UI/MainMenu.h \
+  /Users/afftobuss/Documents/game2kurs/include/States/VehicleSelection.h

@@ -10,3 +10,5 @@
 
 ##Сборка + запуск одной командой
 ##cd /Users/afftobuss/Documents/game2kurs/build && make && ./Game2kurs
+
+

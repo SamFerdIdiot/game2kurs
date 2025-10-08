@@ -898,4 +898,5 @@ CMakeFiles/Game2kurs.dir/src/Game/Game.cpp.o: \
   /usr/local/include/SFML/System/MemoryInputStream.hpp \
   /usr/local/include/SFML/System/Sleep.hpp \
   /Users/afftobuss/Documents/game2kurs/include/UI/MainMenu.h \
+  /Users/afftobuss/Documents/game2kurs/include/States/VehicleSelection.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream

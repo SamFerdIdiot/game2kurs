@@ -5,9 +5,7 @@
 #include <vector>
 
 class VehicleSelection {
-    
 public:
-    
     VehicleSelection(sf::Font& font);
     void handleInput(sf::Event& event);
     void update();
@@ -33,4 +31,6 @@ private:
     
     void setupSelection();
     void updateSelector();
-}
+};
+
+#endif

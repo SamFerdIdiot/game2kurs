@@ -3,6 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "UI/MainMenu.h"
+#include "States/VehicleSelection.h"
 
 class Game {
 public:
@@ -23,9 +24,11 @@ private:
     sf::Texture backgroundTexture;
     sf::Sprite backgroundSprite;
     MainMenu mainMenu;
+    VehicleSelection vehicleSelection;
     
     enum class GameState {
         MainMenu,
+        VehicleSelection,
         Playing,
         Paused
     };
